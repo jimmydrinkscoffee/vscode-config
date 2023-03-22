@@ -2,7 +2,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "security.workspace.trust.untrustedFiles": "open",
   "security.workspace.trust.enabled": false,
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[dart]": {
@@ -68,5 +68,22 @@
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
   "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
-  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+  "[lua]": {
+    "editor.quickSuggestions": {
+      "comments": "inline",
+      "other": "on",
+      "strings": "on"
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "editor.defaultFormatter": "sumneko.lua"
+  },
+  "C_Cpp.clang_format_fallbackStyle": "LLVM",
+  "workbench.colorTheme": "930c70c8-474e-4e2d-a223-d1e2b9da4fb1",
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "[prolog]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format",
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false
 }
