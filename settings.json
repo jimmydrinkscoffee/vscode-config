@@ -2,7 +2,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "security.workspace.trust.untrustedFiles": "open",
   "security.workspace.trust.enabled": false,
-  "editor.fontLigatures": false,
+  "editor.fontLigatures": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[dart]": {
@@ -79,11 +79,36 @@
     "editor.defaultFormatter": "sumneko.lua"
   },
   "C_Cpp.clang_format_fallbackStyle": "LLVM",
-  "workbench.colorTheme": "930c70c8-474e-4e2d-a223-d1e2b9da4fb1",
   "editor.fontFamily": "CaskaydiaCove Nerd Font",
   "[prolog]": {
     "editor.defaultFormatter": "foxundermoon.shell-format",
     "editor.formatOnSave": true
   },
-  "terminal.integrated.enableMultiLinePasteWarning": false
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "csharp.suppressDotnetInstallWarning": true,
+  "editor.codeLens": false,
+  "cSpell.userWords": ["dtos", "interactable"],
+  "[proto3]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "background.enabled": true,
+  "background.loop": false,
+  "background.useDefault": false,
+  "background.useFront": false,
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    "width": "100%",
+    "height": "100%",
+    "background-size": "cover",
+    "background-repeat": "no-repeat",
+    "opacity": 0.1
+  },
+  "background.customImages": ["/home/jimmy/Pictures/cyberpunk.jpg"],
+  "workbench.colorTheme": "Mayukai Mirage"
 }
