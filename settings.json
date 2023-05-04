@@ -110,5 +110,10 @@
     "opacity": 0.1
   },
   "background.customImages": ["/home/jimmy/Pictures/cyberpunk.jpg"],
-  "workbench.colorTheme": "Mayukai Mirage"
+  "workbench.colorTheme": "Mayukai Mirage",
+  "[xml]": {
+    "editor.autoClosingBrackets": "never",
+    "files.trimFinalNewlines": true,
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  }
 }
