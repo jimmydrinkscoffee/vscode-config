@@ -6,7 +6,7 @@
     "editor.defaultFormatter": "foxundermoon.shell-format",
     "editor.formatOnSave": true
   },
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "workbench.colorTheme": "Ayu Mirage",
   "workbench.iconTheme": "material-icon-theme",
   "[properties]": {
@@ -14,7 +14,7 @@
   },
   "terminal.integrated.fontSize": 14,
   "vscode_custom_css.imports": [
-    "file:///Users/jim/Library/Application%20Support/Code/User/custom.css"
+    "file:///home/jim/.config/Code/User/custom.css"
   ],
   "git.openRepositoryInParentFolders": "never",
   "workbench.editor.showTabs": "single",
@@ -29,5 +29,7 @@
       "source.organizeImports": "always"
     },
     "editor.defaultFormatter": "golang.go"
-  }
+  },
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "window.zoomLevel": 2
 }
