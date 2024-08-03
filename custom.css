@@ -57,7 +57,7 @@
 
 .quick-input-widget {
   transform: translateY(-50%) !important;
-  top: 50% !important;
+  top: 16% !important;
   padding: 8px !important;
   border-radius: 12px !important;
 }
@@ -98,4 +98,30 @@
   .monaco-icon-label
   .label-description {
   font-family: Menlo !important;
+}
+
+.left-items.items-container * {
+  display: none !important;
+}
+
+#status\.notifications,
+#status\.editor\.eol,
+#status\.editor\.encoding,
+#status\.editor\.indentation,
+#status\.editor\.selection,
+#be5invis\.vscode-custom-css {
+  display: none !important;
+}
+
+.action-label.codicon.codicon-accounts-view-bar-icon,
+.action-label.codicon.codicon-settings-view-bar-icon {
+  display: none !important;
+}
+
+* {
+  border-color: transparent !important;
+}
+
+.composite.title.has-composite-bar .title-actions * {
+  display: none !important;
 }

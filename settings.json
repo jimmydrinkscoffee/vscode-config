@@ -7,7 +7,7 @@
     "editor.formatOnSave": true
   },
   "editor.fontSize": 14,
-  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.colorTheme": "Ayu Mirage",
   "workbench.iconTheme": "material-icon-theme",
   "[properties]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -17,8 +17,17 @@
     "file:///Users/jim/Library/Application%20Support/Code/User/custom.css"
   ],
   "git.openRepositoryInParentFolders": "never",
+  "workbench.editor.showTabs": "single",
   "editor.stickyScroll.enabled": false,
   "editor.minimap.enabled": false,
   "workbench.tree.indent": 16,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    },
+    "editor.defaultFormatter": "golang.go"
+  }
 }
