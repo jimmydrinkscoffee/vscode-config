@@ -1,0 +1,101 @@
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row .monaco-icon-label .label-name {
+  font-family: Menlo !important;
+  font-size: 14px !important;
+}
+
+.monaco-editor-hover,
+.monaco-hover {
+  padding: 8px !important;
+  border-radius: 16px !important;
+  border: none !important;
+}
+
+.monaco-workbench
+  .part.titlebar
+  > .titlebar-container
+  > .titlebar-center
+  > .window-title
+  > .command-center
+  .action-item.command-center-center {
+  border: none !important;
+  background: transparent !important;
+}
+
+.titlebar-left {
+  justify-content: flex-start !important;
+  flex-grow: 0 !important;
+  width: auto !important;
+}
+
+.search-label {
+  font-size: 14px !important;
+  font-family: Menlo !important;
+  display: block;
+}
+
+.search-icon {
+  display: none !important;
+}
+
+.codicon-search::before {
+  display: none !important;
+}
+
+.codicon-arrow-right,
+.codicon-arrow-left {
+  display: none !important;
+}
+
+.titlebar-right > * {
+  display: none !important;
+}
+
+.command-center-center {
+  width: auto !important;
+}
+
+.quick-input-widget {
+  transform: translateY(-50%) !important;
+  top: 50% !important;
+  padding: 8px !important;
+  border-radius: 12px !important;
+}
+
+.quick-input-filter .monaco-inputbox {
+  border-radius: 8px !important;
+  padding: 4px !important;
+  border: none !important;
+  font-family: Menlo !important;
+  font-size: 14px !important;
+  margin-bottom: 4px !important;
+}
+
+.statusbar-item,
+.statusbar-item .monaco-icon-label,
+.statusbar-item .monaco-icon-label .label-name,
+.statusbar-item .monaco-icon-label .label-description,
+.statusbar-item .monaco-action-bar,
+.statusbar-item .monaco-action-bar .action-item,
+.statusbar-item .monaco-action-bar .action-item .action-label {
+  font-family: Menlo !important;
+}
+
+.tabs-container,
+.tabs-container .monaco-icon-label,
+.tabs-container .monaco-icon-label .label-name,
+.tabs-container .monaco-icon-label .label-description,
+.tabs-container .monaco-action-bar {
+  font-family: Menlo !important;
+}
+
+.monaco-breadcrumbs,
+.monaco-breadcrumbs .monaco-breadcrumb-item,
+.monaco-breadcrumbs .monaco-breadcrumb-item .monaco-icon-label,
+.monaco-breadcrumbs .monaco-breadcrumb-item .monaco-icon-label .label-name,
+.monaco-breadcrumbs
+  .monaco-breadcrumb-item
+  .monaco-icon-label
+  .label-description {
+  font-family: Menlo !important;
+}
