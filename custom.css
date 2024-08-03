@@ -1,6 +1,6 @@
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row .monaco-icon-label .label-name {
-  font-family: "JetBrainsMono Nerd Font" !important;
+  font-family: JetBrainsMono Nerd Font !important;
   font-size: 14px !important;
 }
 
@@ -30,7 +30,7 @@
 
 .search-label {
   font-size: 14px !important;
-  font-family: "JetBrainsMono Nerd Font" !important;
+  font-family: JetBrainsMono Nerd Font !important;
   display: block;
 }
 
@@ -66,7 +66,7 @@
   border-radius: 8px !important;
   padding: 4px !important;
   border: none !important;
-  font-family: "JetBrainsMono Nerd Font" !important;
+  font-family: JetBrainsMono Nerd Font !important;
   font-size: 14px !important;
   margin-bottom: 4px !important;
 }
@@ -78,7 +78,7 @@
 .statusbar-item .monaco-action-bar,
 .statusbar-item .monaco-action-bar .action-item,
 .statusbar-item .monaco-action-bar .action-item .action-label {
-  font-family: "JetBrainsMono Nerd Font" !important;
+  font-family: JetBrainsMono Nerd Font !important;
 }
 
 .tabs-container,
@@ -86,7 +86,7 @@
 .tabs-container .monaco-icon-label .label-name,
 .tabs-container .monaco-icon-label .label-description,
 .tabs-container .monaco-action-bar {
-  font-family: "JetBrainsMono Nerd Font" !important;
+  font-family: JetBrainsMono Nerd Font !important;
 }
 
 .monaco-breadcrumbs,
@@ -97,7 +97,7 @@
   .monaco-breadcrumb-item
   .monaco-icon-label
   .label-description {
-  font-family: "JetBrainsMono Nerd Font" !important;
+  font-family: JetBrainsMono Nerd Font !important;
 }
 
 .left-items.items-container * {
@@ -124,4 +124,8 @@
 
 .composite.title.has-composite-bar .title-actions * {
   display: none !important;
+}
+
+.monaco-icon-label-container .monaco-icon-name-container .label-name {
+  font-family: JetBrainsMono Nerd Font !important;
 }
