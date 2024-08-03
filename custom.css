@@ -57,7 +57,7 @@
 
 .quick-input-widget {
   transform: translateY(-50%) !important;
-  top: 16% !important;
+  top: 50% !important;
   padding: 8px !important;
   border-radius: 12px !important;
 }
