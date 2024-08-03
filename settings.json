@@ -31,5 +31,6 @@
     "editor.defaultFormatter": "golang.go"
   },
   "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontLigatures": "'cv12', 'cv11', 'cv07'",
   "window.zoomLevel": 2
 }
