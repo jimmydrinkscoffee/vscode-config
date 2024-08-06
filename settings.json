@@ -6,7 +6,8 @@
     "editor.defaultFormatter": "foxundermoon.shell-format",
     "editor.formatOnSave": true
   },
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.6,
   "workbench.colorTheme": "Ayu Mirage",
   "workbench.iconTheme": "material-icon-theme",
   "[properties]": {
@@ -29,5 +30,21 @@
       "source.organizeImports": "always"
     },
     "editor.defaultFormatter": "golang.go"
-  }
+  },
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[cpp]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true
+  },
+  "explorer.confirmDelete": false,
+  "C_Cpp.clang_format_fallbackStyle": "LLVM"
 }

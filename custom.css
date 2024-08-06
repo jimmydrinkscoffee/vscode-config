@@ -1,7 +1,7 @@
 .monaco-tree .monaco-tree-row .label-name,
 .monaco-list .monaco-list-row .monaco-icon-label .label-name {
   font-family: Menlo !important;
-  font-size: 14px !important;
+  font-size: 12px !important;
 }
 
 .monaco-editor-hover,
@@ -124,4 +124,8 @@
 
 .composite.title.has-composite-bar .title-actions * {
   display: none !important;
+}
+
+.monaco-icon-label-container .monaco-icon-name-container .label-name {
+  font-family: Menlo !important;
 }
